@@ -45,3 +45,13 @@ mvn sonar:sonar \
   -Dsonar.projectKey=JavaWebApp \
   -Dsonar.host.url=http://34.229.155.180:9000 \
   -Dsonar.login=52508f7c0dbe55055d4f70bb22bdb9036f01cd22
+
+
+
+  ################################################
+
+  NuGet API Key for NEXUS
+  0e050865-ce88-399a-9383-1227203baa9b
+  
+  You can register this key for a given repository with the following command
+  nuget setapikey 0e050865-ce88-399a-9383-1227203baa9b -source ./repository/{repository name}/
